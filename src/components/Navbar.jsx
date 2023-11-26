@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 const Navbar = () => {
   return (
     <nav className="flex flex-row justify-around p-4 mt-10 w-[1980px]">
@@ -19,12 +20,12 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex gap-7">
-        <Link href="/">
-          <button className="rounded-[43px] bg-green-500 px-8 py-3">
+      <button className="rounded-[43px] bg-green-500 px-8 py-3">
+        <Link href="/Signin">
             Sign In
-          </button>
         </Link>
-        <Link href="/contact">
+        </button>
+        <Link href="/Signup">
           <button className="rounded-[43px] bg-green-500 px-8 py-3">
             Sign Ups
           </button>
