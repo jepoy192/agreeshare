@@ -1,11 +1,11 @@
 import React from "react";
 
-const Items = () => {
+const Vision = () => {
   return (
     <div className="h-screen w-full flex flex-col text-align-left justify-center text-[28px]">
-      <div className="mb-[120px] pl-69">Mission</div>
+      <div className="mb-[120px] pl-69">Vision</div>
 
-      <div className="flex text-align-left w-gap-[100px]">
+      <div className="flex text-align-right justfiy-center w-gap-[100px]">
         <p>
           From preschool to pre-tertiary, our students enjoy fun, interactive
           <br />
@@ -16,5 +16,4 @@ const Items = () => {
     </div>
   );
 };
-
-export default Items;
+export default Vision;
