@@ -4,6 +4,10 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Items from "../components/items";
 import Vision from "../components/Vision";
+import Howitworks from "../components/Howitworks";
+import Latest from "../components/Latest";
+import Email from "../components/Email";
+import Footer from "../components/Footer";
 
 // import AboutUs from "./LandingPage/AboutUs";
 // import Header from "./LandingPage/Header";
@@ -14,6 +18,7 @@ import Vision from "../components/Vision";
 export default function Home() {
   return (
     <main>
+  
       <Navbar />
       {/* HERO */}
       <Hero />
@@ -23,6 +28,18 @@ export default function Home() {
       <Items />
       {/* Vision */}
       <Vision />
+      {/* How it works */}
+      <Howitworks />
+      {/* Latest */}
+      <Latest />
+      {/* Email */}
+      <Email/>
+
+      {/* Footer */}
+      <Footer/>
+
+
+
     </main>
   );
 }
