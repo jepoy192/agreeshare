@@ -1,20 +1,23 @@
-import Link from "next/link";
 import React from "react";
-
+import Link from "next/link";
+const img = '/final-logo-1.svg';
 
 const Navbar = () => {
+
+
   return (
     <nav className="flex flex-row justify-around p-4 mt-10 w-[1980px]">
-      <div className="md:text-green-500">LOGO</div>
-
+      <div>
+        <img src={img} alt="Logo" width={74} height={29}/>
+      </div>
       <div className="flex gap-11">
         <Link href="/home">
-        <div>Home</div>
+          <div>Home</div>
         </Link>
-        <Link href="/about">
+        <Link href="/About">
           <div>About Us</div>
         </Link>
-        <Link href="/News">
+        <Link href="/news">
           <div>News</div>
         </Link>
         <Link href="/contact">
@@ -22,14 +25,14 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex gap-7">
-      <button className="rounded-[43px] bg-green-500 px-8 py-3">
         <Link href="/Signin">
+          <button className="rounded-[43px] bg-gradient-to-r from-green-500 to-yellow-500 hover:to-yellow-600 px-8 py-3">
             Sign In
+          </button>
         </Link>
-        </button>
         <Link href="/Signup">
-          <button className="rounded-[43px] bg-green-500 px-8 py-3">
-            Sign Ups
+          <button className="rounded-[43px] bg-gradient-to-r from-green-500 to-yellow-500 hover:to-yellow-600 px-8 py-3">
+            Sign Up
           </button>
         </Link>
       </div>
