@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
         <Link href="/contact">
           <button className="rounded-[43px] bg-green-500 px-8 py-3">
-            Sign Up
+            Sign Ups
           </button>
         </Link>
       </div>
