@@ -3,7 +3,7 @@ import React from "react";
 const Email = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center text-[28px]">
-      <div className="mb-[120px]">Just Say Hello</div>
+      <div className="mb-[120px]">Email</div>
 
       <div className="flex items-center text-center w-gap-[100px]">
         <p>

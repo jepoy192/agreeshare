@@ -3,7 +3,7 @@ import React from "react";
 const Vision = () => {
   return (
     <div className="h-screen w-full flex flex-col text-align-left justify-center text-[28px]">
-      <div className="mb-[120px] pl-69">Vission</div>
+      <div className="mb-[120px] pl-69">Vision</div>
 
       <div className="flex text-align-right pl-200px w-gap-[100px]">
         <p>

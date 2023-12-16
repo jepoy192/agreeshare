@@ -35,6 +35,11 @@ const Navbar = () => {
             Sign Up
           </button>
         </Link>
+        <Link href="/User">
+          <button className="rounded-[43px] bg-gradient-to-r from-green-500 to-yellow-500 hover:to-yellow-600 px-8 py-3">
+            User Side
+          </button>
+        </Link>
       </div>
     </nav>
   );

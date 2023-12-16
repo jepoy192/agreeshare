@@ -9,16 +9,13 @@ import Latest from "../components/Latest";
 import Email from "../components/Email";
 import Footer from "../components/Footer";
 
-// import AboutUs from "./LandingPage/AboutUs";
-// import Header from "./LandingPage/Header";
-// import Hero from "./LandingPage/Hero";
-// import Mission from "./LandingPage/Mission";
-// import Vision from "./LandingPage/Vision";
+
 
 export default function Home() {
   return (
     <main>
-  
+    
+      {/* Navbar */}
       <Navbar />
       {/* HERO */}
       <Hero />
@@ -34,9 +31,9 @@ export default function Home() {
       <Latest />
       {/* Email */}
       <Email/>
-
       {/* Footer */}
       <Footer/>
+    
 
 
 
