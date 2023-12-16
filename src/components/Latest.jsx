@@ -3,7 +3,7 @@ import React from "react";
 const Latest = () => {
   return (
     <div className="h-full w-full flex space-x-4 mx-auto px-4 flex-col text-align-left justify-center text-[28px]">
-      <div className="text-black text-6xl font-bold text-black text-center mb-4 mt-20">Latest News</div>
+      <div className="text-black underline decoration-green-500 text-6xl font-bold text-center mb-4 mt-20">Latest News</div>
 
       <div className="w-full">
         <div className="grid grid-cols-3 gap-4">

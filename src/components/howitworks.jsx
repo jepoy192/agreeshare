@@ -3,7 +3,7 @@ import React from "react";
 const Howitworks = () => {
   return (
     <div className="h-screen w-full flex flex-col items-start justify-center text-[28px] pl-20 bg-black">
-      <div className="mb-[20px] text-white text-6xl font-bold text-white mb-20">How It Works?</div>
+      <div className="mb-[20px] underline decoration-green-500 text-white text-6xl font-bold text-white mb-20">How It Works?</div>
 
       <div className="flex items-start">
         <div>

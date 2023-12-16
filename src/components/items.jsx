@@ -3,7 +3,7 @@ import React from "react";
 const Items = () => {
   return (
     <div className="h-screen w-full flex flex-col items-start justify-center text-[28px] pl-20 bg-black">
-      <div className="mb-[20px] text-white text-6xl font-bold text-white">Mission</div>
+      <div className="mb-[20px] text-white underline decoration-green-500 text-6xl font-bold text-white">Mission</div>
 
       <div className="flex items-center">
         <p className="text-white pr-10 flex-1">
