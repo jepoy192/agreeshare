@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex flex-row justify-around p-4 mt-10 w-[1980px]">
+    <nav className="flex flex-row justify-around p-4 mt-10 w-[1980px] shadow-xl">
       <div>
         <img src={img} alt="Logo" width={74} height={29}/>
       </div>

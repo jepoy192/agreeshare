@@ -1,32 +1,14 @@
-// import React from 'react'
-// import UserNavbar from '../component/UserNavbar'
-
-// const page = () => {
-//   return (
-//     <main>
-//       <h1> sample </h1>
-
-//       <UserNavbar/>
-
-//     </main>
-//   )
-// }
-
-// export default page
-
-
-
 
 import React from "react";
 import Link from "next/link";
-import SearchBar from "../../components/SearchBar";
+import SearchBar from "../SearchBar";
 const img = '/final-logo-1.svg';
 import { FiHeart } from "react-icons/fi";
 import { FaRegBell } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 
 
-const Navbar = () => {
+const UserNavbar = () => {
   return (
     <nav className="flex justify-around p-2  mt-10 w-[1920px]  shadow-xl">
       <div>
@@ -57,4 +39,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default UserNavbar;

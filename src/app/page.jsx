@@ -11,12 +11,16 @@ import Footer from "../components/Footer";
 
 
 
+
 export default function Home() {
   return (
     <main>
     
       {/* Navbar */}
       <Navbar />
+      
+    
+
       {/* HERO */}
       <Hero />
       {/* About us */}
@@ -33,6 +37,8 @@ export default function Home() {
       <Email/>
       {/* Footer */}
       <Footer/>
+
+    
     
 
 
