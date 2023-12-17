@@ -3,7 +3,7 @@ import React from "react";
 const About = () => { return (
   <section className="h-[360px] w-full flex justify-center items-center bg-[url('/IMG_7271.JPG')] bg-cover bg-center">
     <div className="h-[360px] w-full flex flex-col items-center justify-center text-[28px] bg-white bg-opacity-30">
-      <h1 className="mb-[20px] text-white text-6xl font-bold">About Us</h1>
+      <h1 className="mb-[20px] text-white underline decoration-green-500 text-6xl font-bold">About Us</h1>
   
       <div className="flex items-center text-center w-gap-[100px] text-white mb-10">
         <p>
